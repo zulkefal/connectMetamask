@@ -53,7 +53,7 @@ const WalletCard = () => {
 
 return (
   <div className='walletCard'>
-    <h4> {"Connection to MetaMask using window.ethereum methods"} </h4>
+    <h4> {"Connection to MetaMask"} </h4>
     <button onClick={connectWalletHandler}>{connButtonText}</button>
     <div className='accountDisplay'>
       <h3>Address: {defaultAccount}</h3>
